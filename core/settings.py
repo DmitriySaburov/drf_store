@@ -32,6 +32,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # сторонние
     "rest_framework",
+    # созданные
+    "apps.accounts.apps.AccountsConfig",
+    "apps.profiles.apps.ProfilesConfig",
+    "apps.sellers.apps.SellersConfig",
+    "apps.shop.apps.ShopConfig",
+    "apps.common.apps.CommonConfig",
 ]
 
 MIDDLEWARE = [
